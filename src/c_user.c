@@ -341,7 +341,7 @@ static void m_userhost(conn, msg) u_conn *conn; u_msg *msg;
 	char buf[512], data[512];
 	char *ptr = buf;
 
-	rem -= strlen(me.name) + strlen(u->nick) + 8;
+	rem -= strlen(me.name) + strlen(u->nick);
 
 	/* TODO - last param could contain multiple targets */
 	for (i=0; i<msg->argc; i++) {
