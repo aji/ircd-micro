@@ -495,7 +495,7 @@ static void m_list(conn, msg) u_conn *conn; u_msg *msg;
 static void m_nick(conn, msg) u_conn *conn; u_msg *msg;
 {
 	u_user *u = conn->priv;
-	char *s, *newnick = msg->argv[0];
+	char *newnick = msg->argv[0];
 
 	/* cut newnick to nicklen */
 	if (strlen(newnick) > MAXNICKLEN)
@@ -503,13 +503,6 @@ static void m_nick(conn, msg) u_conn *conn; u_msg *msg;
 
 	if (!is_valid_nick(newnick))
 		return u_user_num(u, ERR_ERRONEOUSNICKNAME, newnick);
-
-	/* due to the scandalous origins, (~ being uppercase of ^) and ~
-	 * being disallowed as a nick char, we need to chop the first ~
-	 * instead of just erroring.
-	 */ 
-	if ((s = strchr(newnick, '~')))
-		*s = '\0';
 
 	/* Check for case change */
 	if (irccmp(u->nick, newnick) && u_user_by_nick(newnick))
