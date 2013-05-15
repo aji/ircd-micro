@@ -406,7 +406,6 @@ int init_util()
 	rfc1459_casemap['['] = '{';
 	rfc1459_casemap[']'] = '}';
 	rfc1459_casemap['\\'] = '|';
-	rfc1459_casemap['~'] = '^';
 
 	return 0;
 }
