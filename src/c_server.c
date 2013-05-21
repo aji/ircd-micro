@@ -336,8 +336,8 @@ static int m_part(conn, msg) u_conn *conn; u_msg *msg;
 	u_user *u;
 	
 	if (!(c = u_chan_get(msg->argv[0]))) {
-		return u_log(LG_ERROR, "%G tried to PART nonexistent chan %s",
-		             conn, msg->argv[0]);
+	    return u_log(LG_ERROR, "%G tried to PART nonexistent chan %s",
+	                 conn, msg->argv[0]);
 	}
 	
 	u = msg->src->v.u;
@@ -346,9 +346,9 @@ static int m_part(conn, msg) u_conn *conn; u_msg *msg;
 
 	p = msg->argv[0];
 	while ((s = cut(&p, ",")) != NULL) {
-		u_log(LG_FINE, "%s PART %s$%s", u->nick, s, p);
+	    u_log(LG_FINE, "%s PART %s$%s", u->nick, s, p);
 
-		u_user_part_chan(u, s, msg->argv[1]);
+	    u_user_part_chan(u, s, msg->argv[1]);
 	}
 
 	return 0;
@@ -363,6 +363,7 @@ u_cmd c_server[] = {
 
 	{ "SJOIN",       CTX_SERVER, m_sjoin,         4 },
 	{ "JOIN",        CTX_SERVER, m_join,          3 },
+	{ "PART",        CTX_SERVER, m_part			, 0 },
 
 	{ "TMODE",       CTX_SERVER, m_tmode,         3 },
 
@@ -395,7 +396,6 @@ u_cmd c_server[] = {
 	{ "NICK",        CTX_SERVER, not_implemented, 0 },
 	{ "NICKDELAY",   CTX_SERVER, not_implemented, 0 },
 	{ "OPERWALL",    CTX_SERVER, not_implemented, 0 },
-	{ "PART",        CTX_SERVER, m_part			, 0 },
 	{ "PRIVS",       CTX_SERVER, not_implemented, 0 }, /* hunted */
 	{ "RESV",        CTX_SERVER, not_implemented, 0 },
 	{ "SAVE",        CTX_SERVER, not_implemented, 0 },
