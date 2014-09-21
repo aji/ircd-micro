@@ -1,4 +1,4 @@
-/* Tethys, core/kick -- KICK command
+/* ircd-micro, core/kick -- KICK command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -40,6 +40,6 @@ static u_cmd kick_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/kick", "Alex Iadicicco", "KICK command",
 	NULL, NULL, kick_cmdtab);

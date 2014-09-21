@@ -1,4 +1,4 @@
-/* Tethys, link.h -- IRC connections
+/* ircd-micro, link.h -- IRC connections
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained

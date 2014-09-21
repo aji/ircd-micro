@@ -1,4 +1,4 @@
-/* Tethys, mode.h -- mode processing
+/* ircd-micro, mode.h -- mode processing
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained

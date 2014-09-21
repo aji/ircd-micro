@@ -1,4 +1,4 @@
-/* Tethys, core/su -- ENCAP SU command
+/* ircd-micro, core/su -- ENCAP SU command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -33,6 +33,6 @@ static u_cmd su_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/su", "Alex Iadicicco", "ENCAP SU command",
 	NULL, NULL, su_cmdtab);

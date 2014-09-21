@@ -1,4 +1,4 @@
-/* Tethys, core/user.c -- USER command
+/* ircd-micro, core/user.c -- USER command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -29,6 +29,6 @@ static u_cmd user_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/user", "Alex Iadicicco", "USER command",
 	NULL, NULL, user_cmdtab);

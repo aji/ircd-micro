@@ -1,4 +1,4 @@
-/* Tethys, core/upgrade -- UPGRADE command
+/* ircd-micro, core/upgrade -- UPGRADE command
    Copyright (C) 2014 Alex Iadicicco
    Copyright (C) 2014 Hugo Landau
 
@@ -21,7 +21,7 @@ static u_cmd upgrade_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/upgrade", "Hugo Landau", "UPGRADE command",
 	NULL, NULL, upgrade_cmdtab);
 /* vim: set noet: */

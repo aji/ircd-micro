@@ -1,4 +1,4 @@
-/* Tethys, conn.c -- stream connection management
+/* ircd-micro, conn.c -- stream connection management
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained

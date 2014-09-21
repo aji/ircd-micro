@@ -1,4 +1,4 @@
-/* Tethys, core/stats -- STATS command
+/* ircd-micro, core/stats -- STATS command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -213,6 +213,6 @@ static u_cmd stats_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/stats", "Alex Iadicicco", "STATS command",
 	NULL, NULL, stats_cmdtab);

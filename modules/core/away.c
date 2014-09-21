@@ -1,4 +1,4 @@
-/* Tethys, core/away -- AWAY command
+/* ircd-micro, core/away -- AWAY command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -30,6 +30,6 @@ static u_cmd away_cmdtab[] = {
 	{ },
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/away", "Alex Iadicicco", "AWAY command",
 	NULL, NULL, away_cmdtab);

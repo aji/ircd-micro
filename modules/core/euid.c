@@ -1,4 +1,4 @@
-/* Tethys, core/euid -- EUID command
+/* ircd-micro, core/euid -- EUID command
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -54,6 +54,6 @@ static u_cmd euid_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/euid", "Alex Iadicicco", "EUID command",
 	NULL, NULL, euid_cmdtab);

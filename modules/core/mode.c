@@ -1,4 +1,4 @@
-/* Tethys, core/mode -- MODE and TMODE commands
+/* ircd-micro, core/mode -- MODE and TMODE commands
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -267,6 +267,6 @@ static u_cmd mode_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/mode", "Alex Iadicicco", "MODE and TMODE commands",
 	NULL, NULL, mode_cmdtab);

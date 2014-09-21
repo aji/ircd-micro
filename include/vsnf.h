@@ -1,4 +1,4 @@
-/* Tethys, vsnf.h -- string formatter
+/* ircd-micro, vsnf.h -- string formatter
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained

@@ -1,4 +1,4 @@
-/* Tethys, core/tb -- TB command
+/* ircd-micro, core/tb -- TB command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -47,6 +47,6 @@ static u_cmd tb_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/tb", "Alex Iadicicco", "TB command",
 	NULL, NULL, tb_cmdtab);

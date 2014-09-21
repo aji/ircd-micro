@@ -1,4 +1,4 @@
-/* Tethys, core/kill -- KILL command
+/* ircd-micro, core/kill -- KILL command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -43,6 +43,6 @@ static u_cmd kill_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/kill", "Alex Iadicicco", "KILL command",
 	NULL, NULL, kill_cmdtab);

@@ -7,7 +7,7 @@ This is a quick primer on the help file format - how it works, its limitations,
 and rationale behind certain decisions.
 
 Please note that files that do not follow this format will be summarily
-rejected by Tethys upstream for inclusion.
+rejected by ircd-micro upstream for inclusion.
 
 This document is covered under the WTFPL version 2.
 
@@ -51,17 +51,18 @@ The format is outlined as follows (leading spaces for clarity):
 
 </example>
 
-Non-ASCII characters are not allowed in upstream Tethys help files except for
-possible future localisations. This also means English-only, please!
+Non-ASCII characters are not allowed in upstream ircd-micro help files
+except for possible future localisations. This also means English-only,
+please!
 
-Colour codes are prohibited in upstream Tethys files, except bold and
+Colour codes are prohibited in upstream ircd-micro files, except bold and
 underline; however, try to keep these to a minimum (preferably not at all).
 
-Keep each line at 60 chars or under. 80 is the hard limit - you'll do well to
-stay clear of it. Beyond 80 characters, lines *WILL* be cut off *BY DESIGN.*
-Tethys will not change this hard limit; in addition, Tethys upstream will
-reject files exceeding the 60 character limit unless a clearly defined
-rationale is attached.
+Keep each line at 60 chars or under. 80 is the hard limit - you'll do
+well to stay clear of it. Beyond 80 characters, lines *WILL* be cut off
+*BY DESIGN.* ircd-micro will not change this hard limit; in addition,
+ircd-micro upstream will reject files exceeding the 60 character limit
+unless a clearly defined rationale is attached.
 
 
 3) First line
@@ -69,7 +70,7 @@ rationale is attached.
 The first line of the help file is special - it will be sent with its own
 numeric and may be presented differently to users. There is no expected format,
 but it must follow the conventions in existing help files to be included in
-Tethys.
+ircd-micro.
 
 Required parameters must be in angle brackets. Optional ones must be in square
 brackets. Multiple selections can be delineated with curly brackets and commas.
@@ -93,7 +94,7 @@ outlined above for body text.
 4) Conclusion
 
 Whilst it may seem these rules are arbitrary and annoying, they do in fact
-improve the usability of Tethys. 60 characters are imposed to maintain
+improve the usability of ircd-micro. 60 characters are imposed to maintain
 comfortable reading, especially on narrow terminals. Colour codes are eschewed
 to maintain similar readability. Boxes are in a standard format for a uniform,
 easy-to-read look.

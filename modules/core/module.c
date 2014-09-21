@@ -1,4 +1,4 @@
-/* Tethys, core/module -- Module management commands
+/* ircd-micro, core/module -- Module management commands
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -85,6 +85,6 @@ static int module_init(u_module *m)
 	return 0;
 }
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/module", "Alex Iadicicco", "Module management commands",
 	module_init, NULL, module_cmdtab);

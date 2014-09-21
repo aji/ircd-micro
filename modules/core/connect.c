@@ -1,4 +1,4 @@
-/* Tethys, core/connect -- CONNECT command
+/* ircd-micro, core/connect -- CONNECT command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -67,6 +67,6 @@ static u_cmd connect_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/connect", "Alex Iadicicco", "CONNECT command",
 	NULL, NULL, connect_cmdtab);

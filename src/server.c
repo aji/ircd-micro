@@ -1,4 +1,4 @@
-/* Tethys, server.c -- server data
+/* ircd-micro, server.c -- server data
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -609,7 +609,7 @@ int init_server(void)
 
 	mowgli_list_init(&my_motd);
 
-	u_strlcpy(my_net_name, "TethysIRC", MAXNETNAME+1);
+	u_strlcpy(my_net_name, "MicroIRC", MAXNETNAME+1);
 
 	u_conf_add_handler("me", server_conf, NULL);
 	u_conf_add_handler("admin", admin_conf, NULL);
@@ -617,7 +617,7 @@ int init_server(void)
 	/* default settings! */
 	me.link = NULL;
 	strcpy(me.sid, "22U");
-	u_strlcpy(me.name, "tethys.irc", MAXSERVNAME+1);
+	u_strlcpy(me.name, "micro.irc", MAXSERVNAME+1);
 	u_strlcpy(me.desc, "The Tiny IRC Server", MAXSERVDESC+1);
 	me.capab = CAPAB_QS | CAPAB_EX | CAPAB_CHW | CAPAB_IE
 	         | CAPAB_EOB | CAPAB_KLN | CAPAB_UNKLN | CAPAB_KNOCK

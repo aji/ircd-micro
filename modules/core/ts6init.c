@@ -1,4 +1,4 @@
-/* Tethys, core/ts6init -- Commands for TS6 connection setup
+/* ircd-micro, core/ts6init -- Commands for TS6 connection setup
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -114,7 +114,7 @@ static u_cmd ts6init_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/ts6init", "Alex Iadicicco",
 	"Initial TS6 commands, PASS CAPAB SERVER and SVINFO",
 	NULL, NULL, ts6init_cmdtab);

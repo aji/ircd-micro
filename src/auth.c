@@ -1,4 +1,4 @@
-/* Tethys, auth.c -- authentication management
+/* ircd-micro, auth.c -- authentication management
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained

@@ -1,4 +1,4 @@
-/* Tethys, chan.c -- channels
+/* ircd-micro, chan.c -- channels
    Copyright (c) 2013 Alex Iadicicco
 
    This file is protected under the terms contained

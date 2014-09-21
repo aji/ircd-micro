@@ -1,4 +1,4 @@
-/* Tethys, core/challenge -- CHALLENGE command
+/* ircd-micro, core/challenge -- CHALLENGE command
    Copyright (C) 2014 Aaron Jones <aaronmdjones@gmail.com>
 
    This file is protected under the terms contained
@@ -157,7 +157,7 @@ static u_cmd challenge_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/challenge", "Aaron Jones <aaronmdjones@gmail.com>",
 	"CHALLENGE command", NULL, NULL, challenge_cmdtab);
 

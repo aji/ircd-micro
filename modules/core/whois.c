@@ -1,4 +1,4 @@
-/* Tethys, core/whois -- WHOIS command
+/* ircd-micro, core/whois -- WHOIS command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -110,6 +110,6 @@ static u_cmd whois_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/whois", "Alex Iadicicco", "WHOIS command",
 	NULL, NULL, whois_cmdtab);

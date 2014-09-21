@@ -1,4 +1,4 @@
-/* Tethys, hook.c -- hook and aspect system
+/* ircd-micro, hook.c -- hook and aspect system
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained

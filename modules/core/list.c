@@ -1,4 +1,4 @@
-/* Tethys, core/list -- LIST command
+/* ircd-micro, core/list -- LIST command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -48,6 +48,6 @@ static u_cmd list_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/list", "Alex Iadicicco", "LIST command",
 	NULL, NULL, list_cmdtab);

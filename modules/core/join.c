@@ -1,4 +1,4 @@
-/* Tethys, core/join -- JOIN and SJOIN commands
+/* ircd-micro, core/join -- JOIN and SJOIN commands
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -134,6 +134,6 @@ static u_cmd join_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/join", "Alex Iadicicco", "JOIN and SJOIN commands",
 	NULL, NULL, join_cmdtab);

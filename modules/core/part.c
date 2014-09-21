@@ -1,4 +1,4 @@
-/* Tethys, core/part -- PART command
+/* ircd-micro, core/part -- PART command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -57,6 +57,6 @@ static u_cmd part_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/part", "Alex Iadicicco", "PART command",
 	NULL, NULL, part_cmdtab);

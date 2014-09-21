@@ -1,5 +1,5 @@
 .PHONY: version.c
-PROG = tethys
+PROG = ircd-micro
 SRCS = numeric.c \
 	auth.c \
 	chan.c \

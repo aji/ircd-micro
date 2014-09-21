@@ -1,4 +1,4 @@
-/* Tethys, echo.c -- Test of conn API with echo
+/* ircd-micro, echo.c -- Test of conn API with echo
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained

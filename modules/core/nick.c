@@ -1,4 +1,4 @@
-/* Tethys, core/nick.c -- NICK command
+/* ircd-micro, core/nick.c -- NICK command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -91,6 +91,6 @@ static u_cmd nick_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/nick", "Alex Iadicicco", "NICK command",
 	NULL, NULL, nick_cmdtab);

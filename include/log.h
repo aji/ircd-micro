@@ -1,4 +1,4 @@
-/* Tethys, log.h -- logging
+/* ircd-micro, log.h -- logging
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained

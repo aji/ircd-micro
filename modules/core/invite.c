@@ -1,4 +1,4 @@
-/* Tethys, core/invite -- INVITE command
+/* ircd-micro, core/invite -- INVITE command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -53,6 +53,6 @@ static u_cmd invite_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/invite", "Alex Iadicicco", "INVITE command",
 	NULL, NULL, invite_cmdtab);

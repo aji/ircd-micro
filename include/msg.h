@@ -1,4 +1,4 @@
-/* Tethys, msg.h -- IRC messages and commands
+/* ircd-micro, msg.h -- IRC messages and commands
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained

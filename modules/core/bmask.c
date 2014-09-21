@@ -1,4 +1,4 @@
-/* Tethys, core/bmask -- BMASK command
+/* ircd-micro, core/bmask -- BMASK command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -90,6 +90,6 @@ static u_cmd bmask_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/bmask", "Alex Iadicicco", "BMASK command",
 	NULL, NULL, bmask_cmdtab);

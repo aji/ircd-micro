@@ -1,4 +1,4 @@
-/* Tethys, core/squit -- SQUIT command
+/* ircd-micro, core/squit -- SQUIT command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -64,6 +64,6 @@ static u_cmd squit_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/squit", "Alex Iadicicco", "SQUIT command",
 	NULL, NULL, squit_cmdtab);

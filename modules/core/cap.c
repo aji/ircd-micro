@@ -1,4 +1,4 @@
-/* Tethys, core/cap -- CAP command
+/* ircd-micro, core/cap -- CAP command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -113,6 +113,6 @@ static u_cmd cap_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/cap", "Alex Iadicicco", "CAP command",
 	NULL, NULL, cap_cmdtab);

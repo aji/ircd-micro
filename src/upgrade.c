@@ -1,4 +1,4 @@
-/* Tethys, upgrade.c -- self-exec
+/* ircd-micro, upgrade.c -- self-exec
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -160,7 +160,7 @@ finish_upgrade(void)
  *
  * This means that the restore_ functions leak memory and result in undefined
  * state on failure. The program must exit when this occurs. This is comparable
- * to the init_ functions, so it matches the style of Tethys.
+ * to the init_ functions, so it matches the style of ircd-micro.
  *
  * Proper error handling is retained for the '_from_json' functions at this
  * time, since there is no clear motive to remove it.

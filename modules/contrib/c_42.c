@@ -1,4 +1,4 @@
-/* Tethys, core/c_42.c -- Provides /42
+/* ircd-micro, core/c_42.c -- Provides /42
    Copyright (C) 2014 Sam Dodrill
 
    This file is protected under the terms contained
@@ -21,7 +21,7 @@ int c_42_init(u_module *m)
 	return 0;
 }
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"contrib/c_42", "Sam Dodrill",
 	"Provides /42",
 

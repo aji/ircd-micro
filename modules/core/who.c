@@ -1,4 +1,4 @@
-/* Tethys, core/who -- WHO command
+/* ircd-micro, core/who -- WHO command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -83,6 +83,6 @@ static u_cmd who_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/who", "Alex Iadicicco", "WHO command",
 	NULL, NULL, who_cmdtab);

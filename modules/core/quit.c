@@ -1,4 +1,4 @@
-/* Tethys, core/quit.c -- Provides QUIT command
+/* ircd-micro, core/quit.c -- Provides QUIT command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -34,6 +34,6 @@ static u_cmd quit_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/quit", "Alex Iadicicco", "QUIT command",
 	NULL, NULL, quit_cmdtab);

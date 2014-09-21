@@ -1,4 +1,4 @@
-/* Tethys, conf.c -- configuration parser
+/* ircd-micro, conf.c -- configuration parser
    Copyright (C) 2013 Alex Iadicicco
    Copyright (C) 2014 William Pitcock
 

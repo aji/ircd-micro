@@ -1,4 +1,4 @@
-/* Tethys, core/help.c -- HELP command
+/* ircd-micro, core/help.c -- HELP command
    Copyright (C) 2014 Elizabeth Myers
 
    This file is protected under the terms contained
@@ -188,6 +188,6 @@ static u_cmd help_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/help", "Elizabeth Myers", "HELP command",
 	module_init, module_deinit, help_cmdtab);

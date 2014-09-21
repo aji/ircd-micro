@@ -1,4 +1,4 @@
-/* Tethys, core/numeric -- Numeric routing
+/* ircd-micro, core/numeric -- Numeric routing
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -83,6 +83,6 @@ static u_cmd numeric_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/numeric", "Alex Iadicicco", "Numeric routing",
 	NULL, NULL, numeric_cmdtab);

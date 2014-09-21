@@ -1,4 +1,4 @@
-/* Tethys, version.h - versioning symbols for export only
+/* ircd-micro, version.h - versioning symbols for export only
  * (like Fosters in Australia)
  * Copyright (C) 2013 Elizabeth Myers
  *

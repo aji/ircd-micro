@@ -1,4 +1,4 @@
-/* Tethys, module.h -- modules
+/* ircd-micro, module.h -- modules
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -44,7 +44,7 @@ struct u_module_info {
 	u_cmd *cmdtab;
 };
 
-#define TETHYS_MODULE_V1(NAME, AUTHOR, DESC, INIT, DEINIT, CMDTAB)          \
+#define MICRO_MODULE_V1(NAME, AUTHOR, DESC, INIT, DEINIT, CMDTAB)          \
 	u_module_info __module_info = {                                     \
 		.info_size = sizeof(u_module_info),                         \
                                                                             \

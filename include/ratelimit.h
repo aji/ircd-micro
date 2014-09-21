@@ -1,4 +1,4 @@
-/* Tethys, src/ratelimit.h - rate limiting stuff
+/* ircd-micro, src/ratelimit.h - rate limiting stuff
  *
  * Copyright (C) 2014 Elizabeth Myers.
  * This file is protected under the terms contained in the COPYING file in the

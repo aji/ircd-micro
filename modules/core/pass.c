@@ -1,4 +1,4 @@
-/* Tethys, core/pass.c -- PASS command
+/* ircd-micro, core/pass.c -- PASS command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -39,6 +39,6 @@ static u_cmd pass_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/pass", "Alex Iadicicco", "PASS command",
 	NULL, NULL, pass_cmdtab);

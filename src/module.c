@@ -1,4 +1,4 @@
-/* Tethys, module.c -- modules
+/* ircd-micro, module.c -- modules
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained

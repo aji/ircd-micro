@@ -1,4 +1,4 @@
-/* Tethys, core/sjoin -- SJOIN command
+/* ircd-micro, core/sjoin -- SJOIN command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -340,6 +340,6 @@ static u_cmd sjoin_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/sjoin", "Alex Iadicicco", "SJOIN command",
 	NULL, NULL, sjoin_cmdtab);

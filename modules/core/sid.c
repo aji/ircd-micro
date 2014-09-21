@@ -1,4 +1,4 @@
-/* Tethys, core/sid -- SID and SERVER messages
+/* ircd-micro, core/sid -- SID and SERVER messages
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -36,6 +36,6 @@ static u_cmd sid_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/sid", "Alex Iadicicco", "SID and SERVER messages",
 	NULL, NULL, sid_cmdtab);

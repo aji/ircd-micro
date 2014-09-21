@@ -1,4 +1,4 @@
-/* Tethys, ircd.h -- main IRCD include file
+/* ircd-micro, ircd.h -- main IRCD include file
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -11,7 +11,7 @@
 
 #define PACKAGE_FULLNAME PACKAGE_NAME "-" PACKAGE_VERSION
 #define PACKAGE_COPYRIGHT "Copyright (C) 2013 Alex Iadicicco " \
-			"and Tethys contributors"
+			"and Tethys/ircd-micro contributors"
 
 #include <stdio.h>
 #include <sys/types.h>

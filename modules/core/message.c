@@ -1,4 +1,4 @@
-/* Tethys, message.c -- PRIVMSG and NOTICE
+/* ircd-micro, message.c -- PRIVMSG and NOTICE
    Copyright (C) 2013 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -89,6 +89,6 @@ static u_cmd message_cmdtab[] = {
 	{ },
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/message", "Alex Iadicicco", "PRIVMSG and NOTICE",
 	NULL, NULL, message_cmdtab);

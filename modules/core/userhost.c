@@ -1,4 +1,4 @@
-/* Tethys, core/userhost -- USERHOST command
+/* ircd-micro, core/userhost -- USERHOST command
    Copyright (C) 2013 Elizabeth Myers
 
    This file is protected under the terms contained
@@ -50,6 +50,6 @@ static u_cmd userhost_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/userhost", "Elizabeth Myers", "USERHOST command",
 	NULL, NULL, userhost_cmdtab);

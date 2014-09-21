@@ -1,4 +1,4 @@
-/* Tethys, core/hunted -- Simple hunted commands
+/* ircd-micro, core/hunted -- Simple hunted commands
    Copyright (C) 2014 Alex Iadicicco
 
    This code is protected under the terms contained
@@ -89,6 +89,6 @@ static u_cmd hunted_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/hunted", "Alex Iadicicco", "Simple hunted commands",
 	NULL, NULL, hunted_cmdtab);

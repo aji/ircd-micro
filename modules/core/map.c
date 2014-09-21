@@ -1,4 +1,4 @@
-/* Tethys, core/map -- MAP command
+/* ircd-micro, core/map -- MAP command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -83,6 +83,6 @@ struct u_cmd map_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/map", "Alex Iadicicco", "MAP command",
 	NULL, NULL, map_cmdtab);

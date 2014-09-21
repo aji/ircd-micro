@@ -1,4 +1,4 @@
-/* Tethys, strop.c -- advanced string operations
+/* ircd-micro, strop.c -- advanced string operations
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained

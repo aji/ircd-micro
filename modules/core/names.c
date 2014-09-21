@@ -1,4 +1,4 @@
-/* Tethys, core/names -- NAMES command
+/* ircd-micro, core/names -- NAMES command
    Copyright (C) 2014 Alex Iadicicco
 
    This file is protected under the terms contained
@@ -26,6 +26,6 @@ static u_cmd names_cmdtab[] = {
 	{ }
 };
 
-TETHYS_MODULE_V1(
+MICRO_MODULE_V1(
 	"core/names", "Alex Iadicicco", "NAMES command",
 	NULL, NULL, names_cmdtab);
