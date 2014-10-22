@@ -12,9 +12,11 @@ AC_PREFIX_DEFAULT(~/ircd)
 AC_MSG_CHECKING([if you read the readme])
 if ! test -f libmowgli-2/Makefile; then
 	AC_MSG_RESULT(no)
-	AC_ERROR([please read the readme before trying to build from git])
+	echo "Please read the readme before building from git."
+	git submodule update --init
+else
+	AC_MSG_RESULT(yes)
 fi
-AC_MSG_RESULT(yes)
 
 MOWGLI="libmowgli-2/src/libmowgli"
 
