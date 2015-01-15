@@ -2,7 +2,7 @@
 *.un?
 *.o
 *.so
-src/tethys
+src/ircd-micro
 src/numeric.c
 src/numeric.h
 src/version.c
