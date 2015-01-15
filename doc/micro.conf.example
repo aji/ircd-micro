@@ -75,7 +75,8 @@ auth local {
 	cidr = "127.0.0.1/32";
 
 	# the password to require for users in
-	# this block
+	# this block. same format as in oper{}
+	# blocks
 	#password = "micro";
 };
 
@@ -93,8 +94,11 @@ auth world {
 
 # oper{} - operators
 oper aji {
-	# the password. currently, no encryption
-	# is available
+	# the password. encryption is available.
+	# to get an encrypted password, use the
+	# /mkpass command from within the ircd
+	# (the core/mkpass module must be loaded
+	# to obtain this functionality)
 	password = "god";
 
 	# the auth block the user must be in to
