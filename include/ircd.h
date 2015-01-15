@@ -10,7 +10,7 @@
 #include "autoconf.h"
 
 #define PACKAGE_FULLNAME PACKAGE_NAME "-" PACKAGE_VERSION
-#define PACKAGE_COPYRIGHT "Copyright (C) 2013 Alex Iadicicco " \
+#define PACKAGE_COPYRIGHT "Copyright (C) 2013-2015 Alex Iadicicco " \
 			"and Tethys/ircd-micro contributors"
 
 #include <stdio.h>
