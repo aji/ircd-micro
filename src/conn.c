@@ -138,22 +138,7 @@ u_conn *u_conn_accept(mowgli_eventloop_t *ev, u_conn_ctx *ctx, void *priv,
 	conn->state = U_CONN_ACTIVE;
 
 	set_recv(conn, recv_ready);
-
-	if (addrlen == sizeof(struct sockaddr_in6)) {
-
-		u_strlcpy(conn->host, conn->ip, U_CONN_HOSTSIZE);
-
-		/*
-		 * We're going to skip DNS resolution of IPv6 hosts for now,
-		 * as it doesn't seem to "work". Therefore, make sure the RDNS
-		 * wait flag is cleared, otherwise the client cannot register.
-		 */
-		u_link* link = conn->priv;
-		link->flags &= ~U_LINK_WAIT_RDNS;
-
-	} else {
-		rdns_start(conn, (struct sockaddr*) &addr, addrlen);
-	}
+	rdns_start(conn, (struct sockaddr*) &addr, addrlen);
 
 	return conn;
 }
